@@ -1,0 +1,26 @@
+body{
+    background-image: url(http://telegraf.com.ua/files/2014/03/UPL-tv-gid.jpg);
+    background-position: center 500px;
+    background-repeat: no-repeat;
+    background-color: #0051BA;
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif;
+    text-align: center;
+} 
+h1{
+    color: yellow;
+}
+.y{
+    background-color: white;
+    font: bold;     
+}
+.u{
+    background-color: white;
+}
+.img{
+    width:100px; 
+    height:100px;
+}
+.img img{
+    width:100px; 
+    height:auto;
+}
