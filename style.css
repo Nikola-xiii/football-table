@@ -18,7 +18,7 @@ h1{
 }
 .img{
     width:100px; 
-    height:100px;
+    height:auto;
 }
 .img img{
     width:100px; 
