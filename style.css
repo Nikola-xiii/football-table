@@ -11,7 +11,7 @@ h1{
 }
 .y{
     background-color: white;
-    font: bold;     
+    text-transform: capitalize;   
 }
 .u{
     background-color: white;
