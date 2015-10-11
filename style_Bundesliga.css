@@ -1,0 +1,22 @@
+.img{
+    width:100px; 
+    height:auto;
+    background-color: white;
+}
+.img img{
+    width:100px; 
+    height:auto;
+}
+body{
+    background-color: olive;
+     font-family: "Roboto Condensed",Helvetica,Arial,sans-serif;
+}
+h1{
+    color: yellow;
+    text-align: center;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-color: saddlebrown;
+}
