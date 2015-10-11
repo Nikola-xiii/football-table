@@ -1,0 +1,26 @@
+body{
+    background-image:url(http://fs43.www.ex.ua/show/100787168/100787168.jpg);
+    text-align: center;
+    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif;
+}
+h1{
+    color: white;
+}
+table{
+    background-color: lightblue;
+    border-color:yellow;
+    width: 100%; 
+}
+th{
+    text-decoration: inherit;
+}
+.img{
+    width:100px; 
+    height:auto;
+    background-color: white;
+}
+.img img{
+    width:100px; 
+    height:auto;
+}
+

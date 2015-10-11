@@ -11,7 +11,7 @@ h1{
 }
 .y{
     background-color: white;
-    font: bold;     
+    text-transform: capitalize;   
 }
 .u{
     background-color: white;
@@ -26,4 +26,8 @@ h1{
 }
 table{
   width: "100%"
+}
+a{
+    text-decoration: none;
+    color: black;
 }

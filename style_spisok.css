@@ -1,0 +1,16 @@
+body{
+    background-image: url(http://ffn.org.ua/wp-content/uploads/2013/12/%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB-%D0%BC%D1%8F%D1%87.jpg);
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+ul{
+    list-style-type: circle;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 30px;
+}
