@@ -14,3 +14,21 @@ a{
     color: yellow;
     font-size: 30px;
 }
+
+/* Style for logo components
+-----------------------------------------------------------------------------------*/
+.logo {
+    position: relative; /* !!!parent block style!!! */
+    display: inline-block;
+    background: white;
+    padding: 15px;
+}
+
+.logo a {
+    display: block;
+}
+
+.logo img {
+    width: 80%;
+    height: inherit;
+}
