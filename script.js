@@ -1,9 +1,11 @@
 var variable1 = true;
-var variable2 = 14;
-var variable3 = "tEXT";
-var variable4 = new Number(14);
+var variable2 = 15;
+var variable3 = "asdasdasd";
+var variable4 = true;
+
+console.log(typeof(variable4));
 
 
-
-alert(variable2*2);
-alert(variable2*2);
+if (name < 5) {
+    console.log("Не")
+}
