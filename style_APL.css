@@ -1,14 +1,14 @@
 body{
-    background-image:url(http://fs43.www.ex.ua/show/100787168/100787168.jpg);
     text-align: center;
     font-family: "Roboto Condensed",Helvetica,Arial,sans-serif;
+    background-color: crimson;
 }
 h1{
     color: white;
 }
 table{
     background-color: lightblue;
-    border-color:yellow;
+    border-collapse: collapse;
     width: 100%; 
 }
 th{
@@ -17,10 +17,15 @@ th{
 .img{
     width:100px; 
     height:auto;
-    background-color: white;
+    background-color: peru;
 }
 .img img{
     width:100px; 
     height:auto;
 }
-
+tr{
+    background-color: lemonchiffon;
+}
+.gg{
+    background-color: slategrey;
+}
