@@ -6,10 +6,6 @@ var variable5 = 16;
 var variable6 = variable1+variable2+variable3+variable4+variable5;
 var variable7 = 150 - variable6;
 
-alert(variable1);
-alert(variable2);
-alert(variable3);
-alert(variable4);
-alert(variable5);
+
 alert(variable6);
 alert(variable7);
