@@ -1,15 +1,17 @@
-body{
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,100,100italic,300italic,400italic,500italic,500,700italic,900,900italic&subset=latin,cyrillic-ext,cyrillic);
+
+body {
     background-image: url(http://telegraf.com.ua/files/2014/03/UPL-tv-gid.jpg);
     background-position: center 500px;
     background-repeat: no-repeat;
     background-color: #0051BA;
-    font-family: "Roboto Condensed",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 } 
-h1{
+h1 {
     color: yellow;
 }
-.y{
+.y {
     background-color: white;
     text-transform: capitalize;   
 }
