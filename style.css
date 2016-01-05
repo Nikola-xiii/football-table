@@ -1,36 +1,64 @@
+/* Common style
+------------------------------------------------------------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,100,100italic,300italic,400italic,500italic,500,700italic,900,900italic&subset=latin,cyrillic-ext,cyrillic);
-
 body {
-    background-image: url(http://telegraf.com.ua/files/2014/03/UPL-tv-gid.jpg);
-    background-position: center 500px;
-    background-repeat: no-repeat;
-    background-color: #0051BA;
+    background-image: url(http://ffn.org.ua/wp-content/uploads/2013/12/%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB-%D0%BC%D1%8F%D1%87.jpg);
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-} 
+}
 h1 {
-    color: yellow;
+    text-align: center;
+    color: brown;
 }
-.y {
-    background-color: white;
-    text-transform: capitalize;   
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
 }
-.u{
-    background-color: white;
-}
-.img{
+.img {
     width:100px; 
     height:auto;
 }
-.img img{
+.img img {
     width:100px; 
     height:auto;
 }
-table{
-  width: "100%"
+tr {
+    background-color: white;
 }
-a{
+.nechetnie {
+    background-color: lightgray;
+}
+/* Style for logo components
+-----------------------------------------------------------------------------------*/
+.logo {
+    position: relative; /* !!!parent block style!!! */
+    display: inline-block;
+    background: white;
+    padding: 15px;
+}
+.logo a {
+    display: block;
+}
+.logo img {
+    width: 300px;
+    height: inherit;
+}
+/* Style for Navigation
+--------------------------------------------------------------------------------------*/
+nav {
+    position: relative;
+    display: inline-block;
+    background: white;
+    vertical-align: top;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav li a {
+    font-size: 20px;
+    font-weight: 300;
     text-decoration: none;
-    color: black;
+    color: blue;
 }
-
