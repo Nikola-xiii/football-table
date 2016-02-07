@@ -1,19 +1,3 @@
-var variable1 = 35;
-var variable2 = 41.50;
-var variable3 = 0;
-var variable4 = 0;
-var variable5 = 16;
-var variable6 = variable1+variable2+variable3+variable4+variable5;
-var variable7 = 150 - variable6;
-
-console.log(typeof(variable4));
-
-if (name < 5) {
-    console.log("Не")
-}
-
-alert(variable6);
-alert(variable7);
 
 var UPL = [
     {
@@ -171,9 +155,74 @@ var UPL = [
         score:"21"
     }
 ];
+
+var Table = document.createElement("TABLE");
+
+var TableRow = document.createElement("TR");
+
+var Place = document.createElement("TD");
+
+Place.innerHTML = UPL[0].place;
+
+var Name = document.createElement("TD");
+
+Name.innerHTML = UPL[0].name;
+
+var ImgLogo = document.createElement('IMG');
+
+ImgLogo.src = UPL[0].logo;
+
+var Logo = document.createElement("TD");
+
+Logo.setAttribute("class", "img");
+
+Logo.appendChild(ImgLogo);
+
+var Games = document.createElement("TD");
+
+Games.innerHTML = UPL[0].games;
+
+var Win = document.createElement("TD");
+
+Win.innerHTML = UPL[0].win;
+
+var Draw = document.createElement("TD");
+
+Draw.innerHTML = UPL[0].draw;
+
+var Lose = document.createElement("TD");
+
+Lose.innerHTML = UPL[0].lose;
+
+var Goal_difference = document.createElement("TD");
+
+Goal_difference.innerHTML = UPL[0].goal_difference;
+
+var Score = document.createElement("TD");
+
+Score.innerHTML = UPL[0].score;
+
+TableRow.appendChild(Place);
+TableRow.appendChild(Logo);
+TableRow.appendChild(Name);
+TableRow.appendChild(Games);
+TableRow.appendChild(Win);
+TableRow.appendChild(Draw);
+TableRow.appendChild(Lose);
+TableRow.appendChild(Goal_difference);
+TableRow.appendChild(Score);
+
+Table.appendChild(TableRow);
+
+document.getElementById("js-table").appendChild(Table);
+
+console.log(Logo);
+
+
+
 var APL = [
     {                                                                             
-        place:"1", 
+        place: "1", 
         name:"Leicester",
         logo:"img/APL/Leicester_City.png", 
         games:"22",
