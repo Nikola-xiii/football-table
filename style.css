@@ -25,7 +25,7 @@ table {
 tr {
     background-color: white;
 }
-.nechetnie {
+.double {
     background-color: lightgray;
 }
 /* Style for logo components
@@ -40,7 +40,7 @@ tr {
     display: block;
 }
 .logo img {
-    width: 300px;
+    width: 100px;
     height: inherit;
 }
 /* Style for Navigation
