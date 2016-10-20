@@ -1,1082 +1,1579 @@
 var data = [
     {
         place:"1",
-        tournanement:'English_PR',
-        name:'Man_City',
+        tournanement:
+        [
+            'English PR',
+            'UEFA Champions League',
+            'FA Cup',
+            'League Cup'
+        ],
+        name:'Man City',
         logo:'',
         games:"7",
         win:"6",
         draw:"0",
         lose:"1",
-        goal_difference:"18-7",
+        goal_scored:"18",
+        goal_against:"7",
         score:"18"
     },
     {
         place:"1",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'UEFA Champions League',
+            'Copa del Rey'
+        ],
         name:'Atletico',
         logo:'',
         games:"7",
         win:"4",
         draw:"3",
         lose:"0",
-        goal_difference:"14-2",
+        goal_scored:"14",
+        goal_against:"2",
         score:"15"
     },
     {
         place:"1",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'UEFA Champions League',
+            'Coppa Italia',
+            'Suppercoppa Italiana'
+        ],
         name:'Juventus',
         logo:'',
         games:"7",
         win:"6",
         draw:"0",
         lose:"1",
-        goal_difference:"15-4",
+        goal_scored:"15",
+        goal_against:"4",
         score:"18"
     },
     {
         place:"1",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'UEFA Champions League',
+            'DFB Pokal'
+        ],
         name:'Bayern',
         logo:'',
         games:"6",
         win:"5",
         draw:"1",
         lose:"0",
-        goal_difference:"16-2",
+        goal_scored:"16",
+        goal_against:"2",
         score:"16"
     },
     {
         place:"1",
-        tournanement:'Ukrainian_PR',
+        tournanement:
+        [
+            'Ukrainian PR',
+            'UEFA Europa League',
+            'Ukrainian Cup',
+            'Ukrainian Supercup'
+        ],
         name:'Shakhtar',
         logo:'',
         games:"10",
         win:"9",
         draw:"1",
         lose:"0",
-        goal_difference:"23-5",
+        goal_scored:"23",
+        goal_against:"5",
         score:"28"
     },
     {
         place:"2",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'UEFA Champions League',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Spurs',
         logo:'',
         games:"7",
         win:"5",
         draw:"2",
         lose:"0",
-        goal_difference:"12-3",
+        goal_scored:"12",
+        goal_against:"3",
         score:"17"
     },
     {
         place:"2",
-        tournanement:'Liga_Santander',
-        name:'Real_Madrid',
+        tournanement:
+        [
+            'La Liga',
+            'UEFA Champions League',
+            'Coppa del Rey'    
+        ],
+        name:'Real Madrid',
         logo:'',
         games:"7",
         win:"4",
         draw:"3",
         lose:"0",
-        goal_difference:"16-7",
+        goal_scored:"16",
+        goal_against:"7",
         score:"15"
     },
     {
         place:"2",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'UEFA Champions League',
+            'Coppa Italia',
+        ],
         name:'Napoli',
         logo:'',
         games:"7",
         win:"4",
         draw:"2",
         lose:"1",
-        goal_difference:"14-6",
+        goal_scored:"14",
+        goal_against:"6",
         score:"14"
     },
     {
         place:"2",
-        tournanement:'Bundesliga',
-        name:'Hertha_Berlin',
+        tournanement:
+        [
+            'Bundesliga', 
+            'DFB Pokal'
+        ],
+        name:'Hertha Berlin',
         logo:'',
         games:"6",
         win:"4",
         draw:"1",
         lose:"1",
-        goal_difference:"11-7",
+        goal_scored:"11",
+        goal_against:"7",
         score:"13"
     },
     {
         place:"2",
-        tournanement:'Ukrainian_PR',
-        name:'Dynamo_Kyiv',
+        tournanement:
+        [
+            'Ukrainian PR',
+            'UEFA Champions League',
+            'Ukrainian Cup',
+            'Ukrainian Supercup'    
+        ],
+        name:'Dynamo Kyiv',
         logo:'',
         games:"10",
         win:"7",
         draw:"1",
         lose:"2",
-        goal_difference:"19-7",
+        goal_scored:"19",
+        goal_against:"7",
         score:"22"
     },
     {
         place:"3",
-        tournanement:'English_PR',
+        tournanement:
+        [ 
+            'English PR',
+            'UEFA Champions League',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Arsenal',
         logo:'',
         games:"7",
         win:"5",
         draw:"1",
         lose:"1",
-        goal_difference:"16-7",
+        goal_scored:"16",
+        goal_against:"7",
         score:"16"
     },
     {
         place:"3",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'UEFA Champions League',
+            'Coppa del Rey'         
+        ],
         name:'Sevilla',
         logo:'',
         games:"7",
         win:"4",
         draw:"2",
         lose:"1",
-        goal_difference:"13-10",
+        goal_scored:"13",
+        goal_against:"10",
         score:"14"
     },
     {
         place:"3",
-        tournanement:'Seria_A',
-        name:'AC_Milan',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia',
+            'Suppercoppa Italiana'
+        ],
+        name:'AC Milan',
         logo:'',
         games:"7",
         win:"4",
         draw:"1",
         lose:"2",
-        goal_difference:"12-10",
+        goal_scored:"12",
+        goal_against:"10",
         score:"13"
     },
     {
         place:"3",
-        tournanement:'Bundesliga',
-        name:'Borussia_Dortmund',
+        tournanement:
+        [
+            'Bundesliga',
+            'UEFA Champions League',
+            'DFB Pokal'
+        ],
+        name:'Borussia Dortmund',
         logo:'',
         games:"6",
         win:"4",
         draw:"0",
         lose:"2",
-        goal_difference:"16-6",
+        goal_scored:"16",
+        goal_against:"6",
         score:"12"
     },
     {
         place:"3",
-        tournanement:'Ukrainian_PR',
+        tournanement:
+        [
+            'Ukrainian PR',
+            'UEFA Europa League',
+            'Ukrainian Cup'
+        ],
         name:'Zorya',
         logo:'',
         games:"10",
         win:"6",
         draw:"2",
         lose:"2",
-        goal_difference:"16-8",
+        goal_scored:"16",
+        goal_against:"8",
         score:"20"
     },
     {
         place:"4",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR', 
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Liverpool',
         logo:'',
         games:"7",
         win:"5",
         draw:"1",
         lose:"1",
-        goal_difference:"18-10",
+        goal_scored:"18",
+        goal_against:"10",
         score:"16"
     },
     {
         place:"4",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'UEFA Champions League',
+            'Copa del Rey'
+        ],
         name:'Barcelona',
         logo:'',
         games:"7",
         win:"4",
         draw:"1",
         lose:"2",
-        goal_difference:"22-10",
+        goal_scored:"22",
+        goal_against:"10",
         score:"13"
     },
     {
         place:"4",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Chievo',
         logo:'',
         games:"7",
         win:"4",
         draw:"1",
         lose:"2",
-        goal_difference:"9-6",
+        goal_scored:"9",
+        goal_against:"6",
         score:"13"
     },
     {
         place:"4",
-        tournanement:'Bundesliga',
-        name:'FC_Cologne',
+        tournanement:
+        [
+            'Bundesliga', 
+            'DFB Pokal'
+        ],
+        name:'FC Cologne',
         logo:'',
         games:"6",
         win:"3",
         draw:"3",
         lose:"0",
-        goal_difference:"10-3",
+        goal_scored:"10",
+        goal_against:"3",
         score:"12"
     },
     {
         place:"4",
-        tournanement:'Ukrainian_PR',
+        tournanement:
+        [
+            'Ukrainian PR',
+            'Ukrainian Cup'
+        ],
         name:'Chernomorets_Odessa',
         logo:'',
         games:"10",
         win:"5",
         draw:"2",
         lose:"3",
-        goal_difference:"9-10",
+        goal_scored:"9",
+        goal_against:"10",
         score:"17"
     },
     {
         place:"5",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Everton',
         logo:'',
         games:"7",
         win:"4",
         draw:"2",
         lose:"1",
-        goal_difference:"11-5",
+        goal_scored:"11",
+        goal_against:"5",
         score:"14"
     },
     {
         place:"5",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'UEFA Europa League',
+            'Copa del Rey'
+        ],
         name:'Villarreal',
         logo:'',
         games:"7",
         win:"3",
         draw:"4",
         lose:"0",
-        goal_difference:"9-4",
+        goal_scored:"9",
+        goal_against:"4",
         score:"13"
     },
     {
         place:"5",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A', 
+            'Coppa Italia'
+        ],
         name:'Lazio',
         logo:'',
         games:"7",
         win:"4",
         draw:"1",
         lose:"2",
-        goal_difference:"13-7",
+        goal_scored:"13",
+        goal_against:"7",
         score:"13"
     },
     {
         place:"5",
-        tournanement:'Bundesliga',
-        name:'RasenBallspost_Leipzig',
+        tournanement:
+        [
+            'Bundesliga', 
+            'DFB Pokal'
+        ],
+        name:'RasenBallspost Leipzig',
         logo:'',
         games:"6",
         win:"3",
         draw:"3",
         lose:"0",
-        goal_difference:"11-5",
+        goal_scored:"11",
+        goal_against:"5",
         score:"12"
     },
     {
         place:"5",
-        tournanement:'Ukrainian_PR',
-        name:'FC_Olexandria',
+        tournanement:
+        [
+            'Ukrainian PR',
+            'Ukrainian Cup'
+        ],
+        name:'FC Olexandria',
         logo:'',
         games:"10",
         win:"5",
         draw:"1",
         lose:"4",
-        goal_difference:"18-14",
+        goal_scored:"18",
+        goal_against:"14",
         score:"16"
     },
     {
         place:"6",
-        tournanement:'English_PR',
-        name:'Man_Utd',
+        tournanement:
+        [
+            'English PR',
+            'UEFA Europa League',
+            'FA Cup',
+            'League Cup'
+        ],
+        name:'Man Utd',
         logo:'',
         games:"7",
         win:"4",
         draw:"1",
         lose:"2",
-        goal_difference:"13-8",
+        goal_scored:"13",
+        goal_against:"8",
         score:"13"
     },
     {
         place:"6",
-        tournanement:'Liga_Santander',
-        name:'Atletic_Club',
+        tournanement:
+        [
+            'La Liga',
+            'UEFA Europa League',
+            'Copa del Rey'
+        ],
+        name:'Atletic Club',
         logo:'',
         games:"7",
         win:"4",
         draw:"0",
         lose:"3",
-        goal_difference:"10-8",
+        goal_scored:"10",
+        goal_against:"8",
         score:"12"
     },
     {
         place:"6",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'UEFA Europa League',
+            'Coppa Italia'
+        ],
         name:'Roma',
         logo:'',
         games:"7",
         win:"4",
         draw:"1",
         lose:"2",
-        goal_difference:"16-9",
+        goal_scored:"16",
+        goal_against:"9",
         score:"13"
     },
     {
         place:"6",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'UEFA Champions League',
+            'DFB Pokal'
+        ],
         name:'Leverkusen',
         logo:'',
         games:"6",
         win:"3",
         draw:"1",
         lose:"2",
-        goal_difference:"10-7",
+        goal_scored:"10",
+        goal_against:"7",
         score:"10"
     },
     {
         place:"6",
-        tournanement:'Ukrainian_PR',
-        name:'Olimpik_Donetsk',
+        tournanement:
+        [
+            'Ukrainian PR'
+        ],
+        name:'Olimpik Donetsk',
         logo:'',
         games:"10",
         win:"5",
         draw:"1",
         lose:"4",
-        goal_difference:"16-19",
+        goal_scored:"16",
+        goal_against:"19",
         score:"16"
     },
     {
         place:"7",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Chelsea',
         logo:'',
         games:"7",
         win:"4",
         draw:"1",
         lose:"2",
-        goal_difference:"12-9",
+        goal_scored:"12",
+        goal_against:"9",
         score:"13"
     },
     {
         place:"7",
-        tournanement:'Liga_Santander',
-        name:'Las_Palmas',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
+        name:'Las Palmas',
         logo:'',
         games:"7",
         win:"3",
         draw:"2",
         lose:"2",
-        goal_difference:"16-13",
+        goal_scored:"16",
+        goal_against:"13",
         score:"11"
     },
     {
         place:"7",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Torino',
         logo:'',
         games:"7",
         win:"3",
         draw:"2",
         lose:"2",
-        goal_difference:"13-8",
+        goal_scored:"13",
+        goal_against:"8",
         score:"11"
     },
     {
         place:"7",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'DFB Pokal'
+        ],
         name:'Hoffenheim',
         logo:'',
         games:"6",
         win:"2",
         draw:"4",
         lose:"0",
-        goal_difference:"11-9",
+        goal_scored:"11",
+        goal_against:"9",
         score:"10"
     },
     {
         place:"7",
-        tournanement:'Ukrainian_PR',
+        tournanement:
+        [
+            'Ukrainian PR',
+            'Ukrainian Cup'
+        ],
         name:'Vorskla',
         logo:'',
         games:"10",
         win:"3",
         draw:"3",
         lose:"4",
-        goal_difference:"11-11",
+        goal_scored:"11",
+        goal_against:"11",
         score:"12"
     },
     {
         place:"8",
-        tournanement:'English_PR',
-        name:'Crystal_Palace',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
+        name:'Crystal Palace',
         logo:'',
         games:"7",
         win:"3",
         draw:"2",
         lose:"2",
-        goal_difference:"11-8",
+        goal_scored:"11",
+        goal_against:"8",
         score:"11"
     },
     {
         place:"8",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
         name:'Eibar',
         logo:'',
         games:"7",
         win:"3",
         draw:"2",
         lose:"2",
-        goal_difference:"9-7",
+        goal_scored:"9",
+        goal_against:"7",
         score:"11"
     },
     {
         place:"8",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Genoa',
         logo:'',
         games:"6",
         win:"3",
         draw:"2",
         lose:"1",
-        goal_difference:"8-5",
+        goal_scored:"8",
+        goal_against:"5",
         score:"11"
     },
     {
         place:"8",
-        tournanement:'Bundesliga',
-        name:'Eintracht_Frankfurt',
+        tournanement:
+        [
+            'Bundesliga',
+            'DFB Pokal'
+        ],
+        name:'Eintracht Frankfurt',
         logo:'',
         games:"6",
         win:"3",
         draw:"1",
         lose:"2",
-        goal_difference:"8-6",
+        goal_scored:"8",
+        goal_against:"6",
         score:"10"
     },
     {
         place:"8",
-        tournanement:'Ukrainian_PR',
+        tournanement:
+        [
+            'Ukrainian PR',
+            'Ukrainian Cup'
+        ],
         name:'Dnipro',
         logo:'',
         games:"10",
         win:"2",
         draw:"3",
         lose:"5",
-        goal_difference:"10-15",
+        goal_scored:"10",
+        goal_against:"15",
         score:"9"
     },
     {
         place:"9",
-        tournanement:'English_PR',
-        name:'West_Brom',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
+        name:'West Brom',
         logo:'',
         games:"7",
         win:"2",
         draw:"3",
         lose:"2",
-        goal_difference:"8-7",
+        goal_scored:"8",
+        goal_against:"7",
         score:"9"
     },
     {
         place:"9",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
         name:'Leganes',
         logo:'',
         games:"7",
         win:"3",
         draw:"1",
         lose:"3",
-        goal_difference:"7-10",
+        goal_scored:"7",
+        goal_against:"10",
         score:"10"
     },
     {
         place:"9",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'UEFA Europa League',
+            'Coppa Italia'
+        ],
         name:'Inter',
         logo:'',
         games:"7",
         win:"3",
         draw:"2",
         lose:"2",
-        goal_difference:"9-8",
+        goal_scored:"9",
+        goal_against:"8",
         score:"11"
     },
     {
         place:"9",
-        tournanement:'Bundesliga',
-        name:'Borussia_M_Gladbach',
+        tournanement:
+        [
+            'Bundesliga',
+            'UEFA Champions League',
+            'DFB Pokal'
+        ],
+        name:'Borussia M.Gladbach',
         logo:'',
         games:"6",
         win:"3",
         draw:"1",
         lose:"2",
-        goal_difference:"10-10",
+        goal_scored:"10",
+        goal_against:"10",
         score:"10"
     },
     {
         place:"9",
-        tournanement:'Ukrainian_PR',
+        tournanement:
+        [
+            'Ukrainian PR'
+        ],
         name:'Zirka',
         logo:'',
         games:"10",
         win:"2",
         draw:"2",
         lose:"6",
-        goal_difference:"6-17",
+        goal_scored:"6",
+        goal_against:"17",
         score:"8"
     },
     {
         place:"10",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'UEFA Europa League',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Southampton',
         logo:'',
         games:"7",
         win:"2",
         draw:"3",
         lose:"2",
-        goal_difference:"7-6",
+        goal_scored:"7",
+        goal_against:"6",
         score:"9"
     },
     {
         place:"10",
-        tournanement:'Liga_Santander',
-        name:'Celta_Vigo',
+        tournanement:
+        [
+            'La Liga',
+            'UEFA Europa League',
+            'Copa del Rey'
+        ],
+        name:'Celta Vigo',
         logo:'',
         games:"7",
         win:"3",
         draw:"1",
         lose:"3",
-        goal_difference:"9-11",
+        goal_scored:"9",
+        goal_against:"11",
         score:"10"
     },
     {
         place:"10",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Bologna',
         logo:'',
         games:"7",
         win:"3",
         draw:"1",
         lose:"3",
-        goal_difference:"8-11",
+        goal_difference:"8",
+        goal_against:"11",
         score:"10"
     },
     {
         place:"10",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'DFB Pokal'
+        ],
         name:'Freiburg',
         logo:'',
         games:"6",
         win:"3",
         draw:"0",
         lose:"3",
-        goal_difference:"7-9",
+        goal_scored:"7",
+        goal_against:"9",
         score:"9"
     },
     {
         place:"10",
-        tournanement:'Ukrainian_PR',
-        name:'Stal_Kamianske',
+        tournanement:
+        [
+            'Ukrainian PR',
+            'Ukrainian Cup'
+        ],
+        name:'Stal Kamianske',
         logo:'',
         games:"10",
         win:"1",
         draw:"4",
         lose:"5",
-        goal_difference:"8-14",
+        goal_scored:"8",
+        goal_against:"14",
         score:"7"
     },
     {
         place:"11",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Watford',
         logo:'',
         games:"7",
         win:"2",
         draw:"2",
         lose:"3",
-        goal_difference:"12-13",
+        goal_scored:"12",
+        goal_against:"13",
         score:"8"
     },
     {
         place:"11",
-        tournanement:'Liga_Santander',
-        name:'Real_Sociedad',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
+        name:'Real Sociedad',
         logo:'',
         games:"7",
         win:"3",
         draw:"1",
         lose:"3",
-        goal_difference:"9-9",
+        goal_scored:"9",
+        goal_against:"9",
         score:"10"
     },
     {
         place:"11",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Cagliari',
         logo:'',
         games:"7",
         win:"3",
         draw:"1",
         lose:"3",
-        goal_difference:"11-13",
+        goal_scored:"11",
+        goal_against:"13",
         score:"10"
     },
     {
         place:"11",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'UEFA Europa League',
+            'DFB Pokal'
+        ],
         name:'Mainz',
         logo:'',
         games:"6",
         win:"2",
         draw:"2",
         lose:"2",
-        goal_difference:"12-11",
+        goal_scored:"12",
+        goal_against:"11",
         score:"8"
     },
     {
         place:"11",
-        tournanement:'Ukrainian_PR',
+        tournanement:
+        [
+            'Ukrainian PR'
+        ],
         name:'Karpaty',
         logo:'',
         games:"10",
         win:"1",
         draw:"3",
         lose:"6",
-        goal_difference:"10-15",
+        goal_difference:"10",
+        goal_against:"15",
         score:"6"
     },
     {
         place:"12",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'UEFA Champions League',
+            'FA Cup'
+        ],
         name:'Leicester',
         logo:'',
         games:"7",
         win:"2",
         draw:"2",
         lose:"3",
-        goal_difference:"8-11",
+        goal_scored:"8",
+        goal_against:"11",
         score:"8"
     },
     {
         place:"12",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
         name:'Alaves',
         logo:'',
         games:"7",
         win:"2",
         draw:"3",
         lose:"2",
-        goal_difference:"8-7",
+        goal_scored:"8",
+        goal_against:"7",
         score:"9"
     },
     {
         place:"12",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Atalanta',
         logo:'',
         games:"7",
         win:"3",
         draw:"0",
         lose:"4",
-        goal_difference:"10-12",
+        goal_scored:"10",
+        goal_against:"12",
         score:"9"
     },
     {
         place:"12",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'DFB Pokal'
+        ],
         name:'Augsburg',
         logo:'',
         games:"6",
         win:"2",
         draw:"1",
         lose:"3",
-        goal_difference:"5-8",
+        goal_scored:"5",
+        goal_against:"8",
         score:"7"
     },
     {
         place:"12",
-        tournanement:'Ukrainian_PR',
+        tournanement:
+        [
+            'Ukrainian PR',
+            'Ukrainian Cup'
+        ],
         name:'Volyn',
         logo:'',
         games:"10",
         win:"1",
         draw:"3",
         lose:"6",
-        goal_difference:"7-18",
+        goal_scored:"7",
+        goal_against:"18",
         score:"6"
     },
     {
         place:"13",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Bournemouth',
         logo:'',
         games:"7",
         win:"2",
         draw:"2",
         lose:"3",
-        goal_difference:"6-11",
+        goal_scored:"6",
+        goal_against:"11",
         score:"8"
     },
     {
         place:"13",
-        tournanement:'Liga_Santander',
-        name:'Real_Betis',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
+        name:'Real Betis',
         logo:'',
         games:"7",
         win:"2",
         draw:"2",
         lose:"3",
-        goal_difference:"8-12",
+        goal_scored:"8",
+        goal_against:"12",
         score:"8"
     },
     {
         place:"13",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'UEFA Europa League',
+            'Coppa Italia'
+        ],
         name:'Sassuolo',
         logo:'',
         games:"7",
         win:"3",
         draw:"0",
         lose:"4",
-        goal_difference:"9-12",
+        goal_scored:"9",
+        goal_against:"12",
         score:"9"
     },
     {
         place:"13",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'DFB Pokal'
+        ],
         name:'Wolfsburg',
         logo:'',
         games:"6",
         win:"1",
         draw:"3",
         lose:"2",
-        goal_difference:"4-7",
+        goal_scored:"4",
+        goal_against:"7",
         score:"6"
     },
     {
         place:"14",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Burnley',
         logo:'',
         games:"7",
         win:"2",
         draw:"1",
         lose:"4",
-        goal_difference:"5-9",
+        goal_scored:"5",
+        goal_against:"9",
         score:"7"
     },
     {
         place:"14",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
         name:'Deportivo',
         logo:'',
         games:"7",
         win:"2",
         draw:"2",
         lose:"3",
-        goal_difference:"5-6",
+        goal_scored:"5",
+        goal_against:"6",
         score:"8"
     },
     {
         place:"14",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'UEFA Europa League',
+            'Coppa Italia'
+        ],
         name:'Fiorentina',
         logo:'',
         games:"6",
         win:"2",
         draw:"2",
         lose:"2",
-        goal_difference:"6-6",
+        goal_scored:"6",
+        goal_against:"6",
         score:"8"
     },
     {
         place:"14",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'DFB Pokal'
+        ],
         name:'Darmstadt',
         logo:'',
         games:"6",
         win:"1",
         draw:"2",
         lose:"3",
-        goal_difference:"4-12",
+        goal_scored:"4",
+        goal_against:"12",
         score:"5"
     },
     {
         place:"15",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Hull',
         logo:'',
         games:"7",
         win:"2",
         draw:"1",
         lose:"4",
-        goal_difference:"7-14",
+        goal_scored:"7",
+        goal_against:"14",
         score:"7"
     },
     {
         place:"15",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga', 
+            'DFB Pokal'
+        ],
         name:'Malaga',
         logo:'',
         games:"7",
         win:"2",
         draw:"2",
         lose:"3",
-        goal_difference:"7-9",
+        goal_scored:"7",
+        goal_against:"9",
         score:"8"
     },
     {
         place:"15",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Sampdoria',
         logo:'',
         games:"7",
         win:"2",
         draw:"1",
         lose:"4",
-        goal_difference:"7-10",
+        goal_scored:"7",
+        goal_against:"10",
         score:"7"
     },
     {
         place:"15",
-        tournanement:'Bundesliga',
-        name:'Werder_Bremen',
+        tournanement:
+        [
+            'Bundesliga'
+        ],
+        name:'Werder Bremen',
         logo:'',
         games:"6",
         win:"1",
         draw:"1",
         lose:"4",
-        goal_difference:"7-17",
+        goal_scored:"7",
+        goal_against:"17",
         score:"4"
     },
     {
         place:"16",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Middlesbrough',
         logo:'',
         games:"7",
         win:"1",
         draw:"3",
         lose:"3",
-        goal_difference:"7-10",
+        goal_scored:"7",
+        goal_against:"10",
         score:"6"
     },
     {
         place:"16",
-        tournanement:'Liga_Santander',
-        name:'Sporting_Gijon',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
+        name:'Sporting Gijon',
         logo:'',
         games:"7",
         win:"2",
         draw:"1",
         lose:"4",
-        goal_difference:"6-16",
+        goal_scored:"6",
+        goal_against:"16",
         score:"7"
     },
     {
         place:"16",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Udinese',
         logo:'',
         games:"7",
         win:"2",
         draw:"1",
         lose:"4",
-        goal_difference:"6-12",
+        goal_scored:"6",
+        goal_against:"12",
         score:"7"
     },
     {
         place:"16",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'UEFA Europa League',
+            'DFB Pokal'
+        ],
         name:'Schalke',
         logo:'',
         games:"6",
         win:"1",
         draw:"0",
         lose:"5",
-        goal_difference:"6-10",
+        goal_scored:"6",
+        goal_against:"10",
         score:"3"
     },
     {
         place:"17",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Swansea',
         logo:'',
         games:"7",
         win:"1",
         draw:"1",
         lose:"5",
-        goal_difference:"6-12",
+        goal_scored:"6",
+        goal_against:"12",
         score:"4"
     },
     {
         place:"17",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
         name:'Espanyol',
         logo:'',
         games:"7",
         win:"1",
         draw:"3",
         lose:"3",
-        goal_difference:"9-14",
+        goal_scored:"9",
+        goal_against:"14",
         score:"6"
     },
     {
         place:"17",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Pescara',
         logo:'',
         games:"7",
         win:"1",
         draw:"3",
         lose:"3",
-        goal_difference:"7-10",
+        goal_scored:"7",
+        goal_against:"10",
         score:"6"
     },
     {
         place:"17",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'DFB Pokal'
+        ],
         name:'Ingolstadt',
         logo:'',
         games:"6",
         win:"0",
         draw:"1",
         lose:"5",
-        goal_difference:"3-12",
+        goal_scored:"3",
+        goal_against:"12",
         score:"1"
     },
     {
         place:"18",
-        tournanement:'English_PR',
-        name:'West_Ham',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
+        name:'West Ham',
         logo:'',
         games:"7",
         win:"1",
         draw:"1",
         lose:"5",
-        goal_difference:"8-17",
+        goal_scored:"8",
+        goal_against:"17",
         score:"4"
     },
     {
         place:"18",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
         name:'Valencia',
         logo:'',
         games:"7",
         win:"2",
         draw:"0",
         lose:"5",
-        goal_difference:"9-14",
+        goal_scored:"9",
+        goal_against:"14",
         score:"6"
     },
     {
         place:"18",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Palermo',
         logo:'',
         games:"7",
         win:"1",
         draw:"3",
         lose:"3",
-        goal_difference:"4-8",
+        goal_scored:"4",
+        goal_against:"8",
         score:"6"
     },
     {
         place:"18",
-        tournanement:'Bundesliga',
+        tournanement:
+        [
+            'Bundesliga',
+            'DFB Pokal'
+        ],
         name:'Hamburg',
         logo:'',
         games:"6",
         win:"0",
         draw:"1",
         lose:"5",
-        goal_difference:"2-12",
+        goal_scored:"2",
+        goal_against:"12",
         score:"1"
     },
     {
         place:"19",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Stoke',
         logo:'',
         games:"7",
         win:"0",
         draw:"3",
         lose:"4",
-        goal_difference:"5-16",
+        goal_scored:"5",
+        goal_against:"16",
         score:"3"
     },
     {
         place:"19",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga', 
+            'Copa del Rey'
+        ],
         name:'Osasuna',
         logo:'',
         games:"7",
         win:"0",
         draw:"3",
         lose:"4",
-        goal_difference:"7-15",
+        goal_scored:"7",
+        goal_against:"15",
         score:"3"
     },
     {
         place:"19",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Empoli',
         logo:'',
         games:"7",
         win:"1",
         draw:"1",
         lose:"5",
-        goal_difference:"2-11",
+        goal_scored:"2",
+        goal_against:"11",
         score:"4"
     },
     {
         place:"20",
-        tournanement:'English_PR',
+        tournanement:
+        [
+            'English PR',
+            'FA Cup',
+            'League Cup'
+        ],
         name:'Sunderland',
         logo:'',
         games:"7",
         win:"0",
         draw:"2",
         lose:"5",
-        goal_difference:"6-13",
+        goal_scored:"6",
+        goal_against:"13",
         score:"2"
     },
     {
         place:"20",
-        tournanement:'Liga_Santander',
+        tournanement:
+        [
+            'La Liga',
+            'Copa del Rey'
+        ],
         name:'Granada',
         logo:'',
         games:"7",
         win:"0",
         draw:"2",
         lose:"5",
-        goal_difference:"7-16",
+        goal_scored:"7",
+        goal_against:"16",
         score:"2"
     },
     {
         place:"20",
-        tournanement:'Seria_A',
+        tournanement:
+        [
+            'Seria A',
+            'Coppa Italia'
+        ],
         name:'Crotone',
         logo:'',
         games:"7",
         win:"0",
         draw:"1",
         lose:"6",
-        goal_difference:"5-16",
+        goal_scored:"5",
+        goal_against:"16",
         score:"1s"
     }
 ];
