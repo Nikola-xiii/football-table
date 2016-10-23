@@ -1,0 +1,23 @@
+{
+  "team":[
+    {
+      "place": "1",
+      "tournanement":
+      [
+        "English PR",
+        "UEFA Champions League",
+        "FA Cup",
+        "League Cup"
+      ],
+      "name":"Man City",
+      "logo":"",
+      "games": 7,
+      "win": 6,
+      "draw": 0,
+      "lose": 1,
+      "goal_scored": 18,
+      "goal_against": 7,
+      "score": 18
+    }
+  ]
+}
