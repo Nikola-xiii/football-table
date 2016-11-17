@@ -6,18 +6,29 @@ var text = '{ "employees" : [' +
 
 obj = JSON.parse(text);
 
+
 var Table = Object();
 
-Table.getData = function(team) {
-  this.data = comand;
+Table.getData = function(obj) {
+  this.dataEmployees = obj.employees;
 };
 
-Table.drawColumn = function () {
-  var Name = document.createElement("TD");
+Table.drawColumn = function (item, index) {
+  var arrayTD = [];
+  td = document.createElement("TD");
+  td.innerHTML = item.firstName;
+  arrayTD.push(td);
+  td = document.createElement("TD");
+  td.innerHTML = item.lastName;
+  arrayTD.push(td);
+
+  return this.arrayTD;
 };
 
-Table.drawRow = function () {
-  var TableRow = document.createElement("TR");
+Table.drawRow = function (arrayTD) {
+  tr = document.createElement("TR");
+  tr.appendChild(this.arrayTD[0]);
+  tr.appendChild(this.arrayTD[1]);
 };
 
 Table.createTable = function (rootRender) {
@@ -25,17 +36,22 @@ Table.createTable = function (rootRender) {
   document.getElementById(rootRender).appendChild(Table);
 };
 
-Table.init = function(team) {
-  this.getData(team);
+Table.init = function(obj) {
+  this.getData(obj);
 
-  this.drawColumn();
+  this.dataEmployees.forEach(this.drawColumn)
 
   this.drawRow();
 
   this.createTable();
 };
 
-Table.init(data[0]);
+Table.getData(obj);
+
+Table.dataEmployees.forEach(Table.drawColumn);
+
+console.log(Table.arrayTD);
+//Table.init(data[0]);
 
 // var Table = document.createElement("TABLE");
 //
